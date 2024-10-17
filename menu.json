@@ -1,0 +1,4 @@
+[
+    { "name": "Espresso", "price": "$3.00", "description": "Strong and black coffee" },
+    { "name": "Latte", "price": "$4.50", "description": "Espresso with steamed milk" }
+]

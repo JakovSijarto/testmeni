@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop Menu</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Coffee Shop Menu</h1>
+  </header>
+
+  <main class="container">
+    <section class="menu-section" id="menu-list">
+      <!-- Dynamic menu items will be added here -->
+    </section>
+
+    <section class="edit-section">
+      <h2>Edit Menu</h2>
+      <form id="menu-form">
+        <input type="text" id="name" placeholder="Item Name" required>
+        <input type="text" id="price" placeholder="Price" required>
+        <textarea id="description" placeholder="Description" required></textarea>
+        <button type="submit" class="btn-submit">Add Item</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Coffee Shop</p>
+  </footer>
+</body>
+</html>
